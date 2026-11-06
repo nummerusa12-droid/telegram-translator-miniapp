@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Translator</title><script src="https://telegram.org/js/telegram-web-app.js"></script><link rel="stylesheet" href="common.css"></head><body>
+<header><h1>🌐 Translator</h1><button id="langbtn" class="ghost">🌍</button></header>
+<main>
+<div class="card"><label data-i="to"></label><select id="to"></select>
+<label data-i="text"></label><textarea id="src" maxlength="1500"></textarea>
+<div class="row"><button class="primary" id="go" data-i="go"></button><button class="ghost" id="swap" style="flex:0 0 52px;margin-top:10px">⇅</button></div></div>
+<div class="card"><div class="row" style="align-items:center"><b data-i="result"></b><button class="ghost" id="copy" style="flex:0 0 auto" data-i="copy"></button></div><p class="out" id="out"></p><p class="hint" id="det"></p></div>
+<div class="card"><button class="primary" id="setbot" data-i="setbot"></button><p class="hint" data-i="groups"></p></div>
+</main><div id="langdlg"><div class="sheet"></div></div>
+<script src="common.js"></script><script src="app.js"></script></body></html>
